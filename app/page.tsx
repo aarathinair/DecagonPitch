@@ -541,7 +541,15 @@ export default function HomePage() {
                 <p className="text-sm text-slate-600 mb-4">
                   Complete product requirements and technical specifications
                 </p>
-                <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-lg">
+                <Button
+                  className="bg-purple-500 hover:bg-purple-600 text-white rounded-lg"
+                  onClick={() =>
+                    window.open(
+                      "https://docs.google.com/document/d/13hssCBkJHvp0oH06e6mp_QDBkC3anAI1cu69oTyyL4o/edit?usp=sharing",
+                      "_blank",
+                    )
+                  }
+                >
                   <FileText className="w-4 h-4 mr-2" />
                   View PRD
                 </Button>
@@ -553,7 +561,16 @@ export default function HomePage() {
                 <User className="w-8 h-8 text-purple-500 mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">My Resume</h3>
                 <p className="text-sm text-slate-600 mb-4">Learn more about Aarathi Nair's background and experience</p>
-                <Button variant="outline" className="border-purple-200 text-purple-700 hover:bg-purple-50 rounded-lg">
+                <Button
+                  variant="outline"
+                  className="border-purple-200 text-purple-700 hover:bg-purple-50 rounded-lg"
+                  onClick={() =>
+                    window.open(
+                      "https://docs.google.com/document/d/1uPKRAhSjwc4PQ14QSqx3GRQ4SEd5tSEsLNneCBfecaI/edit?usp=sharing",
+                      "_blank",
+                    )
+                  }
+                >
                   <User className="w-4 h-4 mr-2" />
                   View Resume
                 </Button>
@@ -565,7 +582,11 @@ export default function HomePage() {
                 <Monitor className="w-8 h-8 text-purple-500 mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">My Portfolio</h3>
                 <p className="text-sm text-slate-600 mb-4">Explore other projects and case studies</p>
-                <Button variant="outline" className="border-purple-200 text-purple-700 hover:bg-purple-50 rounded-lg">
+                <Button
+                  variant="outline"
+                  className="border-purple-200 text-purple-700 hover:bg-purple-50 rounded-lg"
+                  onClick={() => window.open("https://aarathinair.vercel.app/", "_blank")}
+                >
                   <Monitor className="w-4 h-4 mr-2" />
                   View Portfolio
                 </Button>
