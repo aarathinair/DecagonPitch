@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { PieChart } from "react-minimal-pie-chart"
 import {
-  Download,
   CheckCircle,
   TrendingUp,
   FileText,
@@ -150,17 +149,8 @@ export default function HomePage() {
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-8">
             Resolve Stripe disputes in <span className="text-purple-500">minutes</span>, not days
           </h1>
-          <div className="text-2xl md:text-3xl font-semibold text-slate-600 mb-12">
+          <div className="text-2xl md:text-3xl font-semibold text-slate-600 mb-8">
             Automating chargebacks with Decagon's 4-Agent Stack
-          </div>
-          <div className="flex justify-center">
-            <Button
-              size="lg"
-              className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl shadow-lg px-8 py-4 text-lg"
-            >
-              <Download className="w-5 h-5 mr-2" />
-              Download PRD
-            </Button>
           </div>
         </div>
       </motion.section>
@@ -171,7 +161,7 @@ export default function HomePage() {
         className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 snap-start"
       >
         <div className="max-w-6xl mx-auto w-full">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">From Problem to Opportunity</h2>
             <p className="text-xl text-slate-500">Transforming dispute resolution with intelligent automation</p>
           </div>
@@ -309,7 +299,7 @@ export default function HomePage() {
         className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 snap-start"
       >
         <div className="max-w-6xl mx-auto w-full">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">4-Agent Stack</h2>
             <p className="text-xl text-slate-500">Specialized AI agents working in harmony to resolve disputes</p>
           </div>
@@ -328,7 +318,7 @@ export default function HomePage() {
         className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 snap-start"
       >
         <div className="max-w-6xl mx-auto w-full">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Process Transformation</h2>
             <p className="text-xl text-slate-500">From manual workflows to intelligent automation</p>
           </div>
@@ -349,7 +339,7 @@ export default function HomePage() {
 
             <Card className="rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-2xl font-bold text-center">With Decagon AI Automation</CardTitle>
+                <CardTitle className="text-1xl font-bold text-center">With Decagon AI Automation</CardTitle>
               </CardHeader>
               <CardContent>
                 <img
@@ -369,7 +359,7 @@ export default function HomePage() {
         className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 snap-start"
       >
         <div className="max-w-6xl mx-auto w-full">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Impact Metrics</h2>
             <p className="text-xl text-slate-500">Measurable improvements from AI automation</p>
           </div>
@@ -411,7 +401,7 @@ export default function HomePage() {
         className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 snap-start"
       >
         <div className="max-w-6xl mx-auto w-full">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">AI System Evaluation</h2>
             <p className="text-xl text-slate-500">Comprehensive assessment using the CLAIMS™ framework</p>
           </div>
@@ -450,7 +440,7 @@ export default function HomePage() {
         className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 snap-start"
       >
         <div className="max-w-7xl mx-auto w-full">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <div className="flex items-center justify-center mb-4">
               <Calendar className="w-8 h-8 text-purple-500 mr-3" />
               <h2 className="text-4xl md:text-5xl font-bold">Implementation Roadmap</h2>
@@ -499,7 +489,7 @@ export default function HomePage() {
         className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 snap-start"
       >
         <div className="max-w-4xl mx-auto w-full">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Frequently Asked Questions</h2>
             <p className="text-xl text-slate-500">Common questions about implementation and security</p>
           </div>
@@ -532,18 +522,18 @@ export default function HomePage() {
         className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 to-slate-100 snap-start"
       >
         <div className="text-center px-6 max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Transform Your Dispute Resolution?</h2>
-          <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Ready to Transform Your Dispute Resolution?</h2>
+          <p className="text-xl text-slate-600 mb-6 max-w-2xl mx-auto">
             Get access to the detailed PRD, implementation guide, and connect with the team behind this solution.
           </p>
 
           {/* Email Address */}
-          <div className="mb-12">
+          <div className="mb-8">
             <p className="text-lg text-slate-700 font-medium">Contact me directly:</p>
             <p className="text-xl text-purple-600 font-semibold">nairaarathi22@gmail.com</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
             <Card className="rounded-xl shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-6 text-center">
                 <FileText className="w-8 h-8 text-purple-500 mx-auto mb-4" />
@@ -584,7 +574,7 @@ export default function HomePage() {
           </div>
           <div className="text-center">
             <p className="text-slate-500 mb-4">Built by Aarathi Nair for Decagon</p>
-            <p className="text-sm text-slate-400">© 2024 All rights reserved</p>
+            <p className="text-sm text-slate-400">© 2025 All rights reserved</p>
           </div>
         </div>
       </motion.section>
