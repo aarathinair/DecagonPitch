@@ -349,7 +349,7 @@ export default function HomePage() {
 
             <Card className="rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-1xl font-bold text-center">With Decagon AI Automation</CardTitle>
+                <CardTitle className="text-2xl font-bold text-center">With Decagon AI Automation</CardTitle>
               </CardHeader>
               <CardContent>
                 <img
